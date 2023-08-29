@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './pages/navbar';
+import MainCard from './pages/card/main';
 import reportWebVitals from './reportWebVitals';
+import NextCard from './pages/card/next';
+import AboutCard from './pages/card/about';
+import MemberCard from './pages/card/member';
+import PastCard from './pages/card/past';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar/>
+    <MainCard/>
+    <NextCard/>
+    <AboutCard/>
+    <MemberCard/>
+    <PastCard/>
   </React.StrictMode>
 );
 

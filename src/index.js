@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './pages/navbar';
 import MainCard from './pages/card/main';
 import reportWebVitals from './reportWebVitals';
 import NextCard from './pages/card/next';
 import AboutCard from './pages/card/about';
 import MemberCard from './pages/card/member';
 import PastCard from './pages/card/past';
+import Navbar from './components/moleculs/navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

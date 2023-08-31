@@ -1,6 +1,8 @@
 import './App.css';
+import Error from './components/error';
 import Loader from './components/loader';
 import Navbar from './components/navbar';
+import Notfound from './components/notfound';
 import { useGetCurrency } from './services/currencyFreaks';
 import { useEffect} from 'react';
 
@@ -16,7 +18,7 @@ function App() {
 			<div className="grid grid-cols gap-4">
 			{isLoading ? <Loader/>
 				: isError 
-				? <h1>{isError.toString()}</h1>
+				? <Error message={isError.toString()}/>
 				: (currency && currency['rates'] ? 
 				<div className="flex items-center justify-center p-10">
 					<table className="text-sm text-left text-gray-500 dark:text-gray-400">
@@ -42,7 +44,7 @@ function App() {
 						</tbody>
 					</table>
 				</div>
-				: <div className="relative overflow-x-auto rounded shadow-lg flex items-center justify-center h-screen"><h1>Oops, Data Tidak Ditemukan</h1></div>
+				: <Notfound/>
 			)}
 			</div>
 		</div>

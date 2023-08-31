@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Preview
+
+![image](https://github.com/kevinwilliam7/HacktiveReactBasic/assets/76833135/6143b446-58a9-4816-9b47-014c8d94ccd1)
+
 ## Available Scripts
 
 In the project directory, you can run:

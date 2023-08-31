@@ -1,3 +1,6 @@
+# Preview
+![image](https://github.com/kevinwilliam7/HacktiveReactBasic/assets/76833135/33c79abc-021d-4f2d-883c-4077b4877d3b)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

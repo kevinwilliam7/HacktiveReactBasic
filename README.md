@@ -1,4 +1,4 @@
-# Preview
+# Preview - Matauang (CurrencyFreaks)
 ![image](https://github.com/kevinwilliam7/HacktiveReactBasic/assets/76833135/b8204546-2fd2-44cc-bfdf-ef1a9e1982ae)
 
 # Getting Started with Create React App

@@ -1,15 +1,10 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Content from './components/content';
-import Footer from './components/footer';
-import Navbar from './components/navigation';
+import { router } from './router';
 
 function App() {
 	return (
-		<div class="flex flex-col h-screen justify-between">
-			<Navbar/>
-			<Content/>
-			<Footer/>
-		</div>
+		<RouterProvider router={router}/>
 	);
 }
 
